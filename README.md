@@ -9,23 +9,15 @@ ___
 
 # Contenidos
 1. [Motivación](#motivación)
-   1. [COVID19](#covid19)
-   2. [¿Por qué medir CO2?](#por-qué-medir-co2)
-   3. [¿Qué concentración de CO2?](#qué-concentración-de-co2)
-   4. [¿Cuántos cambios de aire?](#cuántos-cambios-de-aire)
-   5. [¿Estoy ventilando bien?](#estoy-ventilando-bien)
-   6. [Preguntas frecuentes](#preguntas-frecuentes)
-   7. [Argentina](#argentina)
-2. [Medidor](#medidor)
+   . [¿Agitadores magnéticos?](## ¿Agitadores magnéticos?)
+   
+2. [# Nuestro Agitador](# Nuestro Agitador)
    1. [Funcionalidad](#funcionalidad)
    2. [Uso](#uso) 
    3. [Lista de Componentes](#lista-de-componentes)
    4. [Circuito](#circuito)
    5. [Software](#software)
-   6. [Ensamblaje](#ensamblaje)
 3. [Medidores Parecidos](#medidores-parecidos)
-4. [Webinar](#webinar)
-5. [Agradecimientos](#agradecimientos)
 6. [Contacto](#contacto)
 
 ___
@@ -49,16 +41,16 @@ ___
 Girando el *potenciómetro* se controla la velocidad de giro del ventilador.
 
 ## Lista de Componentes 
-1. Placa [Arduino MEGA]([https://es.wikipedia.org/wiki/Arduino_Uno](https://proyectoarduino.com/arduino-mega-2560/)) x **1**.
+1. [Placa Arduino MEGA]([https://es.wikipedia.org/wiki/Arduino_Uno](https://proyectoarduino.com/arduino-mega-2560/)) .
 2. Entradas: 
-   1. Potenciómetro ((https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/))  x **1**. 
-   2. [Joystick](https://www.luisllamas.es/arduino-joystick/)  x **1**. 
+   1. [Potenciómetro](https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/) 
+   2. [Joystick](https://www.luisllamas.es/arduino-joystick/) .
 3. Salidas:
-   1. Ventilador con PWM [AMD AFB 3300 rpm]((https://ar.mouser.com/datasheet/2/632/AFB70x70x15mm-515820.pdf))  x **1**.
-   2. Pantalla 7 Segmentos(https://www.circuitbasics.com/arduino-7-segment-display-tutorial/)  x **1**.
+   1. Ventilador con PWM [AMD AFB 3300 rpm]((https://ar.mouser.com/datasheet/2/632/AFB70x70x15mm-515820.pdf)) 
+   2. [Pantalla 7 Segmentos](https://www.circuitbasics.com/arduino-7-segment-display-tutorial/).
 
 6. Alimentación: 
-   1. Cargador Portátil [Gadnic BC-26 10000 mAh de Carga Rápida USB con Indicador de Batería](https://www.gadnic.com.ar/cargadores-portatiles/mini-power-bank-gadnic-10000mah-celular-portable-carga-rapida?source=shopping&gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hNEWgSMh8Dhvq2dokc-VR9O0HjDaYrEMnrP-C9cRBaNrsn3jscANYYaAntUEALw_wcB)  x **1**.
+   1. Fuente de aliemntacion 12 V [Megalite SF120050](https://megalite.com.ar/data/Catalogo_Nielsen.pdf).
 
 9. Otros accesorios: 
    2. Cables Dupont Macho Hembra y Macho Macho de 20cm x **30**. 
