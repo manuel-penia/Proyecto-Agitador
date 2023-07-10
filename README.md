@@ -8,16 +8,16 @@ En este proyecto se documenta la realización de un agitador magnético sencillo
 ___
 
 # Contenidos
-1. [Motivación](#motivación)
-   . [¿Agitadores magnéticos?](## ¿Agitadores magnéticos?)
+1. Motivación
+   1. ¿Agitadores magnéticos?
    
-2. [# Nuestro Agitador](# Nuestro Agitador)
+2. Nuestro Agitador
    1. [Funcionalidad](#funcionalidad)
    2. [Uso](#uso) 
    3. [Lista de Componentes](#lista-de-componentes)
    4. [Circuito](#circuito)
    5. [Software](#software)
-3. [Medidores Parecidos](#medidores-parecidos)
+3. Medidores Parecidos
 6. [Contacto](#contacto)
 
 ___
@@ -41,12 +41,12 @@ ___
 Girando el *potenciómetro* se controla la velocidad de giro del ventilador.
 
 ## Lista de Componentes 
-1. [Placa Arduino MEGA]([https://es.wikipedia.org/wiki/Arduino_Uno](https://proyectoarduino.com/arduino-mega-2560/)) .
+1. [Placa Arduino MEGA]((https://proyectoarduino.com/arduino-mega-2560/)) .
 2. Entradas: 
    1. [Potenciómetro](https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/) 
    2. [Joystick](https://www.luisllamas.es/arduino-joystick/) .
 3. Salidas:
-   1. Ventilador con PWM [AMD AFB 3300 rpm]((https://ar.mouser.com/datasheet/2/632/AFB70x70x15mm-515820.pdf)) 
+   1. Ventilador con PWM [AMD AFB 3300 rpm](https://ar.mouser.com/datasheet/2/632/AFB70x70x15mm-515820.pdf) 
    2. [Pantalla 7 Segmentos](https://www.circuitbasics.com/arduino-7-segment-display-tutorial/).
 
 6. Alimentación: 
