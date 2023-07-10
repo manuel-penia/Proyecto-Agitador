@@ -33,14 +33,8 @@ bool disableDecPoint = false;
 
 sevseg.begin(hardwareConfig, numDigits, digitPins, segmentPins, resistorsOnSegments, updateWithDelays, leadingZeros, disableDecPoint);
 sevseg.setBrightness(10);
-
-  Serial.begin(9600);
-
-
+Serial.begin(9600);
 }
-
-
-
 
 bool IsPotActivado(int valorPot){
   if (valorPot < umbralMinimo) {  //umbralMínimo es una Constante Global.
@@ -55,8 +49,6 @@ void ControlarRelay(bool IsPotActivado, int valorPot){
     outPwm = 0;  // Establecer la salida del PWM en cero cuando ValorPot está por debajo del umbral.
     digitalWrite(pinControlRelay, LOW);  // Desconectar el voltaje de 12V apagando el relé.
     //Serial.println("rele desactivado");
-
-
   } else {
       if(tiempoRestante!=0){
         outPwm = map(valorPot, umbralMinimo, 1023, 0, 255);  // Mapear los valores del potenciómetro al rango del PWM (0 a 255 es el default).
@@ -106,7 +98,6 @@ void ActualizarTiempoRestante(){
   }
 }
 
-
 int ControlarVisor() {
   int segundos;
   if (temporizadorIniciado) {
@@ -123,7 +114,6 @@ int ControlarVisor() {
   if (segundos == -1) {
     segundosRestantes = 0;
   }
-
   if (segundosRestantes < 10) {
     numero_display_string = String(minutos) + "0" + String(segundosRestantes);
   } else {
@@ -131,7 +121,6 @@ int ControlarVisor() {
   }
 
   numero_display = numero_display_string.toInt();
-
   //Serial.print("el numero display es:");
   //Serial.println(numero_display);
   return numero_display;
@@ -142,7 +131,6 @@ void loop() {
   int valorJoystickX;
   int valorBotonJoystick;
   int numero_display;
-
 
   valorPot=analogRead(pinPot);
   valorJoystickX=analogRead(pinJoystickX);
