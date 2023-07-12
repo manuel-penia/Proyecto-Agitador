@@ -63,7 +63,11 @@ Para trabajar con el display se importo la librería "SevSeg".
 Hay proyectos de agitadores de los cuales nos inspiramos para realizar el proyecto, algunos no utilizan una placa Arduino y ninguno posee un temporizador. 
 
 +https://www.thingiverse.com/thing:1175415
+
 +https://www.youtube.com/watch?v=muBcyEvqCYk&ab_channel=CambatronicsOnline
+
 +https://forum.arduino.cc/t/controlar-ventilador-con-arduino/427074
+
 +https://fdossena.com/?p=ArduinoFanControl/i.md
+
 +https://www.youtube.com/watch?v=YBNEXWp-gf0
