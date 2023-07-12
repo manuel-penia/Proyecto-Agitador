@@ -12,6 +12,7 @@ ___
    2. [Lista de Componentes](#lista-de-componentes)
    3. [Circuito](#circuito)
    4. [Software](#software)
+   5. [Impresión 3D](#Impresión3D)
 3. [Inspiración](#Inpiración)
 
 ___
@@ -57,6 +58,13 @@ El código utilizado se encuentra en el archivo [Codigo-Arduino.ino](https://git
 Para simplificar la lectura y funcionamiento del codigo se realizo el siguiente diagrama explicativo. En donde, las variables azules son globales y las negras son locales. 
 Para trabajar con el display se importo la librería "SevSeg".
 <img src="diagramaCodigo.jpeg" alt="drawing" width="500" class="right">
+
+## Impresión 3D
+
+Se construyó un soporte en la plataforma online TinkerCad dispuesto en tres partes. También se contruyó el buzo que se introduce en lka solución. Dentro del buzo se encuentran los imanes de neodimio. 
+
+<img src="desglose_impresion.png" alt="drawing" width="500" class="right">
+
 
 # Inspiración
 
