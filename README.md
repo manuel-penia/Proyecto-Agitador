@@ -63,6 +63,8 @@ Para trabajar con el display se importo la librería "SevSeg".
 ## Impresión 3D
 
 Se construyó un soporte en la plataforma online TinkerCad dispuesto en tres partes. También se contruyó el buzo que se introduce en lka solución. Dentro del buzo se encuentran los imanes de neodimio. Todos los archivos stl se encuentran en esta [carpeta.](https://github.com/manuel-penia/Proyecto-Agitador/tree/main/IMPRESI%C3%93N)
+
+
 <img src="desglose_impresion.png" alt="drawing" width="500" class="right">
 
 
