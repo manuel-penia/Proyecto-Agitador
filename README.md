@@ -25,10 +25,10 @@ ___
 ___
 
 # Nuestro Agitador
-<p align="justify"> Para el diseño de nuestro agitador tuvimos en cuenta que debia tener la funcionalidad principal de hacer girar el buzo (para realizar el mezclado) y a su vez que tuviera un temporizador, con el cual pasado el tiempo seleccionado se apague el agitador. </p>
+<p align="justify"> Para el diseño de nuestro agitador tuvimos en cuenta que debía tener la funcionalidad principal de hacer girar el buzo (para realizar el mezclado) y a su vez que tuviera un temporizador, con el cual pasado el tiempo seleccionado se apague el agitador. </p>
 
 ## Uso
-<p align="justify"> Girando el potenciómetro se controla la velocidad de giro del ventilador. Y mediante la utilización del Joystick (en direccion x y botón) se elige la cantidad de tiempo deseada en el temporizador. Ademas, la existencia del temporizador no implica la necesidad de utilización, sino que se puede controlar solo con el potenciometro. Sin embargo, si se utiliza el temporizador, una vez que este llega a 0, para utilizar el potenciometro se debe desconectar la alimentación y conectarla nuevamente. Otra opción es iniciar nuevamente el temporizador. 
+<p align="justify"> Girando el potenciómetro se controla la velocidad de giro del ventilador. Y mediante la utilización del Joystick (en direccion x y botón) se elige la cantidad de tiempo deseada en el temporizador. Ademas, la existencia del temporizador no implica la necesidad de utilización, sino que se puede controlar solo con el potenciómetro. Sin embargo, si se utiliza el temporizador, una vez que este llega a 0, para utilizar el potenciómetro se debe desconectar la alimentación y conectarla nuevamente. Otra opción es iniciar nuevamente el temporizador. 
  </p>
 
 ## Lista de Componentes 
@@ -47,15 +47,15 @@ ___
    1. Cables Dupont Macho Hembra y Macho Macho de 20cm x **30**. 
 
 ## Circuito
-<p align="justify"> En cuanto al circuito, el cable de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona la alimentación al ventilador. El controlador PWM del ventilador sale del pin 46 que tiene dicha funcionalidad. Por otro lado, la salida analogica del potenciometro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 22. A traves del relay se conecta el cable Vin que conecta el ventilador. Ademas cuenta con el modulo Joystick, este se conecta a la alimentacion al igual que los anteriores. El pin digital del botón se conecta a la entrada 30 y la entrada analogica al pin A0. Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display de 7 segmentos y 4 digitos se conectan a los pines digitales desde el 1 al 13 (8 de estos por los segmentos y 4 por los digitos).  </p>
+<p align="justify"> En cuanto al circuito, el cable de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona la alimentación al ventilador. El controlador PWM del ventilador sale del pin 46 que tiene dicha funcionalidad. Por otro lado, la salida analógica del potenciómetro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 22. A traves del relay se conecta el cable Vin que conecta el ventilador. Ademas cuenta con el modulo Joystick, este se conecta a la alimentacion al igual que los anteriores. El pin digital del botón se conecta a la entrada 30 y la entrada analógica al pin A0. Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display de 7 segmentos y 4 dígitos se conectan a los pines digitales desde el 1 al 13 (8 de estos por los segmentos y 4 por los digitos).  </p>
 
 <img src="Circuito.jpeg" alt="drawing" width="500" class="center">
 
 ## Software
 
-El codigo utilizado se encuentra en el archivo [Codigo-Arduino.ino](https://github.com/manuel-penia/Proyecto-Agitador/blob/main/C%C3%B3digo-Arduino.ino)
+El código utilizado se encuentra en el archivo [Codigo-Arduino.ino](https://github.com/manuel-penia/Proyecto-Agitador/blob/main/C%C3%B3digo-Arduino.ino)
 Para simplificar la lectura y funcionamiento del codigo se realizo el siguiente diagrama explicativo. En donde, las variables azules son globales y las negras son locales. 
-Para trabajar con el display se importo la libreria "SevSeg".
+Para trabajar con el display se importo la librería "SevSeg".
 <img src="diagramaCodigo.jpeg" alt="drawing" width="500" class="right">
 
 # Inspiración
