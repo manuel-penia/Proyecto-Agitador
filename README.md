@@ -29,7 +29,7 @@ ___
 <p align="justify"> Para el diseño de nuestro agitador tuvimos en cuenta que debía tener la funcionalidad principal de hacer girar el buzo (para realizar el mezclado) y a su vez que tuviera un temporizador, con el cual pasado el tiempo seleccionado se apague el agitador. </p>
 
 ## Uso
-<p align="justify"> Girando el potenciómetro se controla la velocidad de giro del ventilador. Y mediante la utilización del Joystick (en direccion x y botón) se elige la cantidad de tiempo deseada en el temporizador. Ademas, la existencia del temporizador no implica la necesidad de utilización, sino que se puede controlar solo con el potenciómetro. Sin embargo, si se utiliza el temporizador, una vez que este llega a 0, para utilizar el potenciómetro se debe desconectar la alimentación y conectarla nuevamente. Otra opción es iniciar nuevamente el temporizador. 
+<p align="justify"> Girando el potenciómetro se controla la velocidad de giro del ventilador. Y mediante la utilización de uno de los botones se elige la cantidad de tiempo deseada en el temporizador, con el otro se da inicio al descuento de dicho tiempo. Ademas, la existencia del temporizador no implica la necesidad de utilización, sino que se puede controlar solo con el potenciómetro. Sin embargo, si se utiliza el temporizador, una vez que este llega a 0, para utilizar el potenciómetro se debe desconectar la alimentación y conectarla nuevamente. Otra opción es iniciar nuevamente el temporizador. 
  </p>
 
 ## Lista de Componentes 
