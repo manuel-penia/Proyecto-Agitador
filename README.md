@@ -33,13 +33,13 @@ ___
  </p>
 
 ## Lista de Componentes 
-1. [Placa Arduino UNO]([https://proyectoarduino.com/arduino-uno-r3/)
+1. [Placa Arduino UNO](https://proyectoarduino.com/arduino-uno-r3/)
 2. Entradas: 
    1. [Potenciómetro](https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/) 
    2. [Botones](https://openwebinars.net/blog/tutorial-arduino-entradas-2-botones/) .
 3. Salidas:
    1. Ventilador con PWM [AMD AFB 3300 rpm](https://ar.mouser.com/datasheet/2/632/AFB70x70x15mm-515820.pdf) 
-   2. [Pantalla 7 Segmentos](https://www.circuitbasics.com/arduino-7-segment-display-tutorial/).
+   2. [Display LCD](https://www.circuitbasics.com/arduino-7-segment-display-tutorial/).
 
 4. Alimentación: 
    1. Fuente de aliemntacion 12 V [Megalite SF120050](https://megalite.com.ar/data/Catalogo_Nielsen.pdf).
