@@ -48,7 +48,7 @@ ___
    1. Cables Dupont Macho Hembra y Macho Macho de 20cm x **30**. 
 
 ## Circuito
-<p align="justify"> En cuanto al circuito, el cable de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona la alimentación al ventilador. El controlador PWM del ventilador sale del pin 46 que tiene dicha funcionalidad. Por otro lado, la salida analógica del potenciómetro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 22. A traves del relay se conecta el cable Vin que conecta el ventilador. Ademas cuenta con el modulo Joystick, este se conecta a la alimentacion al igual que los anteriores. El pin digital del botón se conecta a la entrada 30 y la entrada analógica al pin A0. Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display de 7 segmentos y 4 dígitos se conectan a los pines digitales desde el 1 al 13 (8 de estos por los segmentos y 4 por los digitos).  </p>
+<p align="justify"> En cuanto al circuito, el cable de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona la alimentación al ventilador. El controlador PWM del ventilador sale del pin 3 que tiene dicha funcionalidad. Por otro lado, la salida analógica del potenciómetro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 8. A traves del relay se conecta el cable Vin que conecta el ventilador. Ademas cuenta con 2 botones (continuar...). Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display LCD 16 x 2  .....  </p>
 
 <img src="Circuito.jpeg" alt="drawing" width="500" class="center">
 
@@ -56,7 +56,6 @@ ___
 
 El código utilizado se encuentra en el archivo [Codigo-Arduino.ino](https://github.com/manuel-penia/Proyecto-Agitador/blob/main/C%C3%B3digo-Arduino.ino)
 Para simplificar la lectura y funcionamiento del codigo se realizo el siguiente diagrama explicativo. En donde, las variables azules son globales y las negras son locales. 
-Para trabajar con el display se importo la librería "SevSeg".
 
 <img src="diagramaCodigo.jpeg" alt="drawing" width="500" class="right">
 
