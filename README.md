@@ -33,7 +33,7 @@ ___
  </p>
 
 ## Lista de Componentes 
-1. [Placa Arduino UNO]([https://proyectoarduino.com/arduino-uno-r3/])
+1. [Placa Arduino UNO]([https://proyectoarduino.com/arduino-uno-r3/)
 2. Entradas: 
    1. [Potenciómetro](https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/) 
    2. [Botones](https://openwebinars.net/blog/tutorial-arduino-entradas-2-botones/) .
