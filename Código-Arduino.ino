@@ -63,9 +63,14 @@ void aumentarTemporizador() {
   long tiempoActual = millis();
   if (tiempoActual - botonTiempoLastPressed >= 500) {
     botonTiempoLastPressed = tiempoActual;
-    tiempoRestante += 30;
+    if (tiempoRestante == 0) {
+      tiempoRestante += 30;
+    } else {
+      tiempoRestante *= 2;
+    }
   }
 }
+
 
 void ActualizarTiempoRestante(){
   static unsigned long timer = millis(); //Guardamos la hora
@@ -77,7 +82,14 @@ void ActualizarTiempoRestante(){
     }
   }
 }
+void segundos_a_hh_mm_ss(int segundos, char* resultado) {
+  int horas = segundos / 3600; // 1 hora = 3600 segundos
+  int minutos = (segundos % 3600) / 60;
+  int segundosRestantes = segundos % 60;
 
+  // Formatear la cadena con el tiempo en formato HH:MM:SS
+  sprintf(resultado, "%02d:%02d:%02d", horas, minutos, segundosRestantes);
+}
 
 int valorPot;
 int valorBotonTiempo;
@@ -85,7 +97,6 @@ int valorBotonIniciar;
 int numero_display;
 
 void loop() {
-
   valorPot=analogRead(pinPot);
   valorBotonTiempo=digitalRead(pinBotonTiempo);
   valorBotonIniciar=digitalRead(pinBotonIniciar);
@@ -117,7 +128,9 @@ void loop() {
   lcd.print("Tiempo: ");
   
   lcd.setCursor(8, 0);
-  lcd.print(tiempoRestante);
+  char tiempo_formateado[9];
+  segundos_a_hh_mm_ss(tiempoRestante, tiempo_formateado);
+  lcd.print(tiempo_formateado);
 
   analogWrite(pinPWMVent, outPwm);
 }
