@@ -29,7 +29,7 @@ ___
 <p align="justify"> Para el diseño de nuestro agitador tuvimos en cuenta que debía tener la funcionalidad principal de hacer girar el buzo (para realizar el mezclado) y a su vez que tuviera un temporizador, con el cual pasado el tiempo seleccionado se apague el agitador. </p>
 
 ## Uso
-<p align="justify"> Girando el potenciómetro se controla la velocidad de giro del ventilador. Y mediante la utilización de uno de los botones se elige la cantidad de tiempo deseada en el temporizador, con el otro se da inicio al descuento de dicho tiempo. Ademas, la existencia del temporizador no implica la necesidad de utilización, sino que se puede controlar solo con el potenciómetro. Sin embargo, si se utiliza el temporizador, una vez que este llega a 0, para utilizar el potenciómetro se debe desconectar la alimentación y conectarla nuevamente. Otra opción es iniciar nuevamente el temporizador. 
+<p align="justify"> Presionando el botón amarillo se elige la cantidad de tiempo deseada en el temporizador, con el botón rojo se da inicio al descuento de dicho tiempo. Se puede frenar el giro del ventilador presionando nuevamente el botón rojo. Una vez que arrancó el temporizador, mediante el giro del potenciómetro se controla la velocidad de giro del ventilador y por ende del buzo en la solución. Recomendamos aumentar gradualmente la velocidad de giro hasta la velocidad deseada. 
  </p>
 
 ## Lista de Componentes 
@@ -48,7 +48,7 @@ ___
    1. Cables Dupont Macho Hembra y Macho Macho de 20cm x **30**. 
 
 ## Circuito
-<p align="justify"> En cuanto al circuito, el cable de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona la alimentación al ventilador. El controlador PWM del ventilador sale del pin 3 que tiene dicha funcionalidad. Por otro lado, la salida analógica del potenciómetro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 8. A traves del relay se conecta el cable Vin que conecta el ventilador. Ademas cuenta con 2 botones (continuar...). Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display LCD 16 x 2  .....  </p>
+<p align="justify"> En cuanto al circuito, la fuente de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona el voltaje de alimentación al ventilador. A traves del relay se conecta el cable Vin que conecta el ventilador. El controlador PWM del ventilador sale del pin 3 que tiene dicha funcionalidad. Por otro lado, la salida analógica del potenciómetro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 8. Ademas cuenta con 2 botones en una configuración pull-down. Para esto se conecta una resistencia de 10 ohms en la salida GND de los botones. Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display LCD 16 x 2  .....  </p>
 
 <img src="CircuitoNuevo.jpg" alt="drawing" width="500" class="center">
 
