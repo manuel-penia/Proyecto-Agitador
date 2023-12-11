@@ -50,7 +50,7 @@ ___
 ## Circuito
 <p align="justify"> En cuanto al circuito, el cable de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona la alimentación al ventilador. El controlador PWM del ventilador sale del pin 3 que tiene dicha funcionalidad. Por otro lado, la salida analógica del potenciómetro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 8. A traves del relay se conecta el cable Vin que conecta el ventilador. Ademas cuenta con 2 botones (continuar...). Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display LCD 16 x 2  .....  </p>
 
-<img src="Circuito.jpeg" alt="drawing" width="500" class="center">
+<img src="CircuitoNuevo.jpg" alt="drawing" width="500" class="center">
 
 ## Software
 
