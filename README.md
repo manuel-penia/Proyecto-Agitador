@@ -66,7 +66,7 @@ Para regular la fuerza de los imánes se construyó una plataforma circular que 
 También se contruyó el buzo que se introduce en la solución. Dentro del buzo se encuentran los imanes de neodimio. Todos los archivos stl se encuentran en esta [carpeta.](https://github.com/manuel-penia/Proyecto-Agitador/tree/main/IMPRESI%C3%93N)
 
 
-<img src="Inferior.png" alt="drawing" width="500" class="right">
+<img src="Inferior.jpeg" alt="drawing" width="500" class="right">
 
 
 # Inspiración
