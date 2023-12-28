@@ -48,7 +48,7 @@ ___
    1. Cables Dupont Macho Hembra y Macho Macho de 20cm x **30**. 
 
 ## Circuito
-<p align="justify"> En cuanto al circuito, la fuente de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona el voltaje de alimentación al ventilador. A traves del relay se conecta el cable Vin que conecta el ventilador. El controlador PWM del ventilador sale del pin 3 que tiene dicha funcionalidad. Por otro lado, la salida analógica del potenciómetro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 8. Ademas cuenta con 2 botones en una configuración pull-down. Para esto se conecta una resistencia de 10 ohms en la salida GND de los botones. Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display LCD 16 x 2  .....  </p>
+<p align="justify"> En cuanto al circuito, la fuente de alimentación se conecta a la placa Arduino mediante la entrada de 12V. El pin Vin redirecciona el voltaje de alimentación al ventilador. A traves del relay se conecta el cable Vin que conecta el ventilador. El controlador PWM del ventilador sale del pin 3 que tiene funcionalidad PWM. Por otro lado, la salida analógica del potenciómetro se conecta al Arduino por la entrada A2 y la alimentación es de 5V que proporciona el Arduino. El modulo Relay tiene su sistema de de alimentación de 5V con los pines de la placa y el cable sensor por la salida digital 8. Ademas cuenta con 2 botones en una configuración pull-down. Para esto se conecta una resistencia de 10 ohms en la salida GND de los botones. Todos estos componentes se conectan a los pines GND del Arduino. Finalmente el display LCD 16 x 2  se conectan las entradas analogicas A5 y A4 como indica la imagen, estas funcionan como comunicación, luego la alimentación es por 5V propio del arduino. Todos los componentes deben conectarse a tierra. </p>
 
 <img src="CircuitoNuevo.jpg" alt="drawing" width="500" class="center">
 
@@ -61,10 +61,12 @@ Para simplificar la lectura y funcionamiento del codigo se realizo el siguiente 
 
 ## Impresión 3D
 
-Se construyó un soporte en la plataforma online TinkerCad dispuesto en tres partes. También se contruyó el buzo que se introduce en lka solución. Dentro del buzo se encuentran los imanes de neodimio. Todos los archivos stl se encuentran en esta [carpeta.](https://github.com/manuel-penia/Proyecto-Agitador/tree/main/IMPRESI%C3%93N)
+Se construyó un soporte en la plataforma online TinkerCad dispuesto en tres partes. El diseño consta de tres partes, la inferior, la intermedia y la superior. En la inferior hay espacios para atornillar la placa y el relé al suelo y contra una de las paredes se conectan los botones (Se construye una parte que funciona como traba), potenciometro y el visor LED. La intermedia se debe encastrar a la parte inferior y sobre ella se atornilla el ventilador con el imán pegado. La parte superior se desliza sobre las otras dos funcionando como tapa.
+Para regular la fuerza de los imánes se construyó una plataforma circular que eleve el vaso precipitado a la distancia deseada.
+También se contruyó el buzo que se introduce en la solución. Dentro del buzo se encuentran los imanes de neodimio. Todos los archivos stl se encuentran en esta [carpeta.](https://github.com/manuel-penia/Proyecto-Agitador/tree/main/IMPRESI%C3%93N)
 
 
-<img src="desglose_impresion.png" alt="drawing" width="500" class="right">
+<img src="Inferior.png" alt="drawing" width="500" class="right">
 
 
 # Inspiración
